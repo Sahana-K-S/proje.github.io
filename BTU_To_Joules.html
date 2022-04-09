@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTU to Joules</title>
+    <link rel="stylesheet" type="text/css" href="fc.css" />
+</head>
+<body>
+    <h1>Energy Conversion</h1>
+    <h2>Convert BTU To Joules</h2>
+    <table id="table2">
+        <tr>
+            <td>
+                Enter Energy in BTU:
+            </td>
+            <td>
+                <input type="number" id="energy1">
+            </td>
+            <td>
+                BTU
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="submit" onclick = "btu_to_joules()"> Convert </button> <br><br>  
+            </td>
+        </tr>
+        <tr>
+            <td>Energy in Joules:</td>
+            <td><input type="text" readonly tabindex="4" id="result4"></td>
+            <td>J</td>
+        </tr>
+    </table>
+    <script src="energyConversion.js"></script>
+</body>
+</html>

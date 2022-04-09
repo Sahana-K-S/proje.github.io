@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MathCalculator</title>
+</head>
+<style>
+    #t{
+        background-color: rgb(185, 194, 213);
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #hd{
+        color:rgb(35, 80, 80);
+        text-align: center;
+    }
+</style>
+<body>
+    <h1 id="hd">Math Calculator</h1><br><br>
+    <table id="t">
+        <tr>
+            <td style="color: blue;">
+                First Number:
+            </td>
+        <td>
+            <input type="number" id="nm1">
+        </td>
+        </tr>
+        <tr>
+            <td style="color:blue;">
+                Second Number:
+            </td>
+            <td>
+                <input type="number" id="nm2">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="submit" onclick = "math()"> Calculate </button> <br><br>  
+            </td>
+        </tr>
+        <tr>
+            <td style="color: rgb(119, 55, 10);">
+                Sum:
+            </td>
+            <td>
+                <input type="text" readonly tabindex="4" id="res1">
+            </td>
+        </tr>
+        <tr>
+            <td style="color: rgb(63, 16, 16);">
+                Difference:
+            </td>
+            <td>
+                <input type="text" readonly tabindex="4" id="res2">
+            </td>
+        </tr>
+        <tr>
+            <td style="color: rgb(77, 85, 6);">
+                Product:
+            </td>
+            <td>
+                <input type="text" readonly tabindex="4" id="res3">
+            </td>
+        </tr>
+        <tr>
+            <td style="color: rgb(180, 27, 35);">
+                Quotient:
+            </td>
+            <td>
+                <input type="text" readonly tabindex="4" id="res4">
+            </td>
+        </tr>
+        <script src="MathCalculator.js">
+        </script>
+    </table>
+</body>
+</html>

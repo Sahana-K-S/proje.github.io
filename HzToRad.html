@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hertz to rad/sec</title>
+    <link rel="stylesheet"  href="fc.css"  />
+</head>
+<body>
+    <h1>Frequency Conversion</h1>
+    <h3>Enter the frequency in herzt and get it in rad/s:</h3>
+    <table id="table1">
+        <tr>
+            <td>
+                Enter Freq in Hertz:
+            </td>
+            <td>
+                <input type="number" id="hz1">
+            </td>
+            <td>
+                Hz
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="submit" onclick = "calculate1()"> Convert </button> <br><br>  
+            </td>
+        </tr>
+        <tr>
+            <td>Results in kilohertz:</td>
+            <td><input type="text" readonly tabindex="4" id="result1"></td>
+            <td>rad/s</td>
+        </tr>
+    </table>
+    <script src="fc.js"></script>
+</body>
+</html>
